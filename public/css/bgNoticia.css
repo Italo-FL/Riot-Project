@@ -1,0 +1,38 @@
+.bg-noticias{
+    width: 76vw;
+    min-height: 54vh;
+    background-color: #1E2328;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3.subclass{
+    font-family: "Beaufort for LOL";
+    color: #000000;
+    word-wrap: break-word;
+    font-weight: 450;
+    font-size: 30px;
+    margin-top: 18px; 
+}
+
+h2.sobre{
+    font-family: "Beaufort for LOL";
+    color: #C79A3C;
+    word-wrap: break-word;
+    font-weight: 450;
+    font-size: 60px;
+    margin-top: 5px; 
+}
+
+p.txt{
+    font-family: "spiegel";
+    color: #9F9A8B;
+    word-wrap: break-word;
+    font-weight: 450;
+    font-size: 37px;
+    margin-top: 25px;
+}

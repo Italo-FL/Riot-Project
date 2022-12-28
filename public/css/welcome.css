@@ -1,0 +1,50 @@
+body{
+    background: rgb(9,20,40);
+    background: linear-gradient(90deg, rgba(9,20,40,1) 0%, rgba(10,20,40,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+h1{
+    font-family: "Beaufort for LOL";
+    font-size:  calc(1.2vh + 1.3vw);
+    word-wrap: break-word;
+    font-weight: 500;
+    padding-bottom: 7vh;
+}
+
+button{
+    font-family: "Beaufort for LOL";
+    font-size:  calc(1.2vh + 1.1vw);
+    word-wrap: break-word;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 30px;
+    width: 7vw;
+    height: 6vh;
+    background: linear-gradient(90deg, rgba(255,52,66,1) 0%, rgba(255,120,99,1) 100%);
+    border: 0px;
+}
+
+a:link, a:visited, a:hover, a:active { text-decoration: none; }
+
+.bg-bem-vindo{
+    width: 25vw;
+    height: 35vh;
+    background: linear-gradient(90deg, rgba(201,158,65,1) 0%, rgba(164,111,45,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.box-bem-vindo{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+}
