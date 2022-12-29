@@ -1,0 +1,35 @@
+.bg-nav{
+    display: flex;
+    background: linear-gradient(90deg, rgba(119, 90, 40, 1) 0%, rgba(199, 154, 60, 1) 100%);
+    width: 76vw;
+    height: 6vh;
+    min-height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-header{
+    display: flex;
+    width: 80%;
+    height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-txt{
+    font-family: "Beaufort for LOL";
+    font-size:  calc(1.2vh + 1.1vw);
+    word-wrap: break-word;
+    font-weight: 430;
+}
+
+a:visited, a:active, a:link {color: #EFE5D1; text-decoration: none}
+a:hover { text-decoration: none; }

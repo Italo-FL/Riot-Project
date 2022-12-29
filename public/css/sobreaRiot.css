@@ -1,0 +1,24 @@
+.div-noticia{
+    display: flex;
+    flex-direction: column;
+}
+
+h2.sobre{
+    font-family: "Beaufort for LOL";
+    color: #C79A3C;
+    word-wrap: break-word;
+    font-weight: 450;
+    font-size: 60px;
+    margin-top: 5px; 
+}
+
+p.txt{
+    font-family: "spiegel";
+    color: #9F9A8B;
+    word-wrap: break-word;
+    font-weight: 450;
+    font-size: 37px;
+    margin-top: 25px;
+}
+
+

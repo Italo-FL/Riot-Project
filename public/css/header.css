@@ -1,0 +1,97 @@
+body{
+    background: rgb(9,20,40);
+    background: linear-gradient(90deg, rgba(9,20,40,1) 0%, rgba(10,20,40,1) 100%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    background-color: aquamarine;
+    width: 100%;
+    height: 30vh;
+}
+
+.item-header{
+    display: flex;
+    width:25vw;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-itens-header:nth-child(1){
+    background: linear-gradient(90deg, rgba(43,142,195,1) 0%, rgba(13,192,223,1) 100%);
+}
+
+.bg-itens-header:nth-child(2){
+    background: linear-gradient(90deg, rgba(201,158,65,1) 0%, rgba(164,111,45,1) 100%);
+}
+
+.bg-itens-header:nth-child(3){
+    background: linear-gradient(90deg, rgba(255,129,38,1) 0%, rgba(255,178,38,1) 100%);
+}
+
+.bg-itens-header:nth-child(4){
+    background: linear-gradient(90deg, rgba(255,52,66,1) 0%, rgba(255,120,99,1) 100%);
+}
+
+.align-header{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+}
+
+.div-img{
+    width: 100%;
+    height: 70%;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44%;
+    min-width: 56px;
+    height: 104%;
+    min-height: 114px;
+}
+
+.img-vava{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    min-width: 43px;
+    height: 85%;
+    min-height: 95px;
+}
+
+.div-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+    height: 30%;
+}
+
+.header-1{
+    font-family: "Beaufort for LOL";
+    font-size:  calc(1.2vh + 1.3vw);
+    word-wrap: break-word;
+    font-weight: 500;
+    color:black;
+}
+
+.header-2{
+    font-family: "VALORANT";
+    font-size:  calc(1.2vh + 1.3vw);
+    word-wrap: break-word;
+    color:black;
+}
+
+a {
+    text-decoration: none;
+}
